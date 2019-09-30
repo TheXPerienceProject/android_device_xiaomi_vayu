@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
+    libdng_sdk.vendor \
     libgui_vendor \
     libxml2 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
