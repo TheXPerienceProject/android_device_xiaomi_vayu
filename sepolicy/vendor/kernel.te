@@ -7,3 +7,4 @@ dontaudit kernel self:qipcrtr_socket create;
 
 # Zram
 allow kernel system_data_file:file r_file_perms;
+allow kernel per_boot_file:file r_file_perms;
