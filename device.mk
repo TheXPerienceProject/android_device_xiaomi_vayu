@@ -513,6 +513,9 @@ PRODUCT_PACKAGES += \
 # VNDK
 $(foreach target, $(shell cat $(LOCAL_PATH)/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
 
+PRODUCT_PACKAGES += \
+    com.android.vndk.current.on_vendor
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
