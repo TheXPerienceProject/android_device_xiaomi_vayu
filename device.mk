@@ -123,6 +123,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libstdc++.vendor
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
