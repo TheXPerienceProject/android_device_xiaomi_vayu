@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common XPerience configurations
 $(call inherit-product, vendor/xperience/config/common.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 PRODUCT_NAME := xperience_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
