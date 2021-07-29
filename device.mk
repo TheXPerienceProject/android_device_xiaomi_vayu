@@ -142,7 +142,9 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Dex
+ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+endif
 
 # Display
 PRODUCT_PACKAGES += \
