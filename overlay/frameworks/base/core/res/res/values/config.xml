@@ -779,4 +779,7 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">3000</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
+
+    <!-- Whether device has ChargeTurbo charging support all xiaomis for example -->
+    <bool name="config_hasChargeTurbo">true</bool>
 </resources>
