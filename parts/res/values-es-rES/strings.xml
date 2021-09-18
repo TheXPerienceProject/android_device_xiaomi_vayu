@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Perfiles Térmicos</string>
+    <string name="thermal_summary">Ajusta los perfiles térmicos por aplicación para obtener el óptimo rendimiento</string>
+    <string name="thermal_default">Defecto</string>
+    <string name="thermal_browser">Navegación</string>
+    <string name="thermal_camera">Cámara</string>
+    <string name="thermal_dialer">Llamada</string>
+    <string name="thermal_gaming">Juego</string>
+    <string name="thermal_streaming">Streaming</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">Potenciador de sonido Dirac</string>
+    <string name="dirac_headset_title">Tipo de auricular</string>
+    <string name="dirac_hifi_enable_title">Habilitar Hi-Fi</string>
+    <string name="dirac_preset_title">Preajuste de sonido</string>
+
+    <string name="dirac_hifi_summary">Disminuye el ruido y la distorsión y aumenta la calidad del audio</string>
+
+    <string name="dirac_headset_default">Por Defecto</string>
+    <string name="dirac_headset_general">Auriculares generales</string>
+
+    <string name="dirac_preset_default">Por Defecto</string>
+    <string name="dirac_preset_classical">Clásico</string>
+    <string name="dirac_preset_electronic">Electrónica</string>
+
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Control tactil</string>
+    <string name="touch_game_mode_title">Habilitar el modo de juego</string>
+    <string name="touch_game_mode_summary">Active los controles de función de la pantalla táctil manual para una mejor experiencia de juego</string>
+    <string name="touch_response_title">Respuesta al tacto</string>
+    <string name="touch_response_summary">Control de respuesta táctil</string>
+    <string name="touch_sensitivity_title">Sensibilidad al tacto</string>
+    <string name="touch_sensitivity_summary">Controle la sensibilidad táctil para toques repetidos</string>
+    <string name="touch_resistant_title">Área resistente al tacto</string>
+    <string name="touch_resistant_summary">Reduzca la sensibilidad táctil cerca de los bordes para evitar activar los controles táctiles</string>
+</resources>
