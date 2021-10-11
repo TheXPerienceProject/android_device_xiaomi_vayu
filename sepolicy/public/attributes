@@ -1,1 +1,3 @@
 hal_attribute_xpe(mlipay)
+hal_attribute_xpe(touchfeature)
+hal_attribute_xpe(displayfeature)
