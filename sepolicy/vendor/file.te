@@ -23,3 +23,11 @@ type thermal_data_file, file_type, data_file_type;
 type ultrasound_device, dev_type;
 
 type vendor_sysfs_iio, fs_type, sysfs_type;
+
+type proc_sched_energy_aware, proc_type, fs_type;
+
+# PowerStats HAL
+type sysfs_iio_devices, fs_type, sysfs_type;
+type sysfs_msm_wlan, sysfs_type, fs_type;
+type sysfs_power_stats, sysfs_type, fs_type;
+type sysfs_power_stats_ignore, sysfs_type, fs_type;
