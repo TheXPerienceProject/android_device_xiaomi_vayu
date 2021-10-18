@@ -1,3 +1,4 @@
+
 type mi_thermald, domain;
 type mi_thermald_exec, exec_type, vendor_file_type, file_type;
 
@@ -29,8 +30,7 @@ allow mi_thermald {
   lnk_file
 } rw_file_perms;
 
-set_prop(mi_thermald, thermal_normal_prop)
-
 #mdp
 allow mi_thermald sysfs_msm_subsys:dir search;
 
+set_prop(mi_thermald, vendor_thermal_normal_prop)
