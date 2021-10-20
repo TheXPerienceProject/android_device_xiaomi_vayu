@@ -190,7 +190,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
 
-# Fastbootd
+# Fastbootbootd
 PRODUCT_PACKAGES += \
     fastbootd
 
@@ -305,8 +305,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+#PRODUCT_BOOT_JARS += \
+#    org.ifaa.android.manager
 
 # IPACM
 PRODUCT_PACKAGES += \
@@ -516,7 +516,7 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 include vendor/xiaomi/vayu/vayu-vendor.mk
