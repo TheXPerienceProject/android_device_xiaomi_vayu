@@ -188,6 +188,9 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.4.vendor \
     android.hardware.drm@1.4-service.clearkey
 
 # Fastbootbootd
@@ -384,7 +387,6 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr \
-    android.hardware.power.stats@1.0-service.vayu \
     vendor.qti.hardware.perf@2.2.vendor
 
 PRODUCT_SOONG_NAMESPACES += \
