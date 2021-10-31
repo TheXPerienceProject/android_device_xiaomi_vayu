@@ -30,3 +30,7 @@ allow mi_thermald {
 } rw_file_perms;
 
 set_prop(mi_thermald, thermal_normal_prop)
+
+#mdp
+allow mi_thermald sysfs_msm_subsys:dir search;
+

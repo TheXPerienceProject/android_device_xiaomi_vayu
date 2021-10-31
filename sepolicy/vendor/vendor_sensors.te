@@ -1,0 +1,2 @@
+allow vendor_sensors sysfs_msm_subsys:dir search;
+
