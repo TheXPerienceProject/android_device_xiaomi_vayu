@@ -461,6 +461,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# NeuralNetworks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
@@ -468,6 +472,7 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
+    android.hardware.nfc@1.2.vendor \
     com.android.nfc_extras \
     libchrome.vendor \
     NfcNci \
