@@ -1,0 +1,1 @@
+allow hal_power_service hal_power_service:service_manager find;

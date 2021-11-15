@@ -1,2 +1,1 @@
-allow vendor_cnd wifi_hal_prop:file read;
-
+allow vendor_cnd wifi_hal_prop:file r_file_perms;
