@@ -450,8 +450,8 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# DPM
-system/framework/tcmclient.jar
+# DPM - from  renoir missi-user 12 SKQ1.210908.001 21.10.11
+# system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -637,7 +637,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# IMS
+# IMS - from  renoir missi-user 12 SKQ1.210908.001 21.10.11
 -system_ext/priv-app/ims/ims.apk
 system_ext/lib64/lib-imsvideocodec.so|fbeb028aaba13adf264cef122d5aa1cedb306915
 system_ext/lib64/lib-imsvt.so
