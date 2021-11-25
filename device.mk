@@ -518,9 +518,13 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
-    libwfdaac_vendor
+    libwfdaac_vendor \
+    WfdCommon
 
-#PRODUCT_BOOT_JARS += \
-#    WfdCommon
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
+TARGET_BOARD_PLATFORM := msmnile
+TARGET_COMMON_QTI_COMPONENTS := telephony perf
 
 include vendor/xiaomi/vayu/vayu-vendor.mk

@@ -91,3 +91,7 @@
 # WiFi
 /vendor/bin/nv_mac                                                      u:object_r:vendor_wcnss_service_exec:s0
 /data/vendor/mac_addr(/.*)?                                             u:object_r:vendor_wifi_vendor_data_file:s0
+
+/bt_firmware(/.*)?              u:object_r:bt_firmware_file:s0
+/dsp(/.*)?                      u:object_r:adsprpcd_file:s0
+/firmware                 u:object_r:firmware_file:s0
