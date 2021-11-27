@@ -524,7 +524,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-TARGET_BOARD_PLATFORM := msmnile
-TARGET_COMMON_QTI_COMPONENTS := telephony perf
-
 include vendor/xiaomi/vayu/vayu-vendor.mk
