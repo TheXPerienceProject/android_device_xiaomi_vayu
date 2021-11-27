@@ -450,8 +450,13 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
+<<<<<<< HEAD
 # DPM
 system/framework/tcmclient.jar
+=======
+# DPM - from  renoir missi-user 12 SKQ1.210908.001 21.10.11
+# system/framework/tcmclient.jar
+>>>>>>> parent of 8a48967 (vayu: track ril from renoir missi-user 12 SKQ1.210908.001 21.10.11)
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
