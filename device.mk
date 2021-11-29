@@ -459,6 +459,7 @@ PRODUCT_COPY_FILES += \
 
 # Servicetracker
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.servicetracker@1.2 \
     vendor.qti.hardware.servicetracker@1.2.vendor
