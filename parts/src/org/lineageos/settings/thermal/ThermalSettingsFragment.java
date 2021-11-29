@@ -16,7 +16,6 @@
 package org.lineageos.settings.thermal;
 
 import android.annotation.Nullable;
-import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -361,7 +360,7 @@ public class ThermalSettingsFragment extends PreferenceFragment
                     bundle.putString("packageName", entry.info.packageName);
                     touchSettingsFragment.setArguments(bundle);
                     getActivity().getFragmentManager().beginTransaction()
-                            .replace(android.R.id.content, touchSettingsFragment, "touchSettingsFragment")
+                            .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame, touchSettingsFragment, "touchSettingsFragment")
                             .addToBackStack(null)
                             .commit();
                 }
