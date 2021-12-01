@@ -462,6 +462,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.servicetracker@1.2 \
+    vendor.qti.hardware.servicetracker@1.0.vendor \
+    vendor.qti.hardware.servicetracker@1.1.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
 # Soong namespaces
