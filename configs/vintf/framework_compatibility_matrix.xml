@@ -689,6 +689,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.servicetracker</name>
+        <transport>hwbinder</transport>
         <version>1.0-2</version>
         <interface>
             <name>IServicetracker</name>
