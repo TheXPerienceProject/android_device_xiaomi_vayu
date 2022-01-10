@@ -1,4 +1,4 @@
-# All the proprietary files are extracted from miui_VAYUGlobal_V12.5.5.0.RJUMIXM_9217fed24b_11.0.zip, unless pinned.
+# All the proprietary files are extracted from miui_VAYUGlobal_V12.5.7.0.RJUMIXM_9847c652ee_11.0.zip, unless pinned.
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -452,14 +452,14 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM
-system/framework/tcmclient.jar
+-system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
 system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/dpmapi.xml
-system_ext/framework/com.qti.dpmframework.jar
-system_ext/framework/dpmapi.jar
+-system_ext/framework/com.qti.dpmframework.jar
+-system_ext/framework/dpmapi.jar
 system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so
 system_ext/lib/libdpmctmgr.so
 system_ext/lib/libdpmfdmgr.so
@@ -636,7 +636,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IMS
 -system_ext/priv-app/ims/ims.apk
@@ -871,7 +871,7 @@ vendor/lib64/vendor.qti.hardware.perf@2.2.so
 
 # Power-off alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -935,7 +935,7 @@ system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/telephonyservice.xml
-system_ext/framework/qcrilhook.jar
+-system_ext/framework/qcrilhook.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrild
