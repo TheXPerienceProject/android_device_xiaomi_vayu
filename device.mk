@@ -446,7 +446,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    $(LOCAL_PATH)/libshim
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -595,9 +596,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor \
-    WfdCommon
-
-PRODUCT_BOOT_JARS += \
     WfdCommon
 
 TARGET_BOARD_PLATFORM := msmnile
