@@ -103,6 +103,9 @@ void set_device_props(const std::string brand, const std::string device, const s
         set_ro_product_prop(source, "name", name);
         set_ro_product_prop(source, "marketname", marketname);
     }
+
+    // Set bt name
+    property_override("bluetooth.device.default_name", marketname);
 }
 
 void vendor_load_properties() {
