@@ -104,8 +104,6 @@ void set_device_props(const std::string brand, const std::string device, const s
         set_ro_product_prop(source, "marketname", marketname);
     }
 
-    // Set bt name
-    property_override("bluetooth.device.default_name", marketname);
 }
 
 void vendor_load_properties() {
@@ -127,6 +125,8 @@ void vendor_load_properties() {
     property_override("ro.boot.verifiedbootstate", "green");
 //  Enable transitional log for Privileged permissions
     property_override("ro.control_privapp_permissions", "log");
+    // Set bt name
+    property_override("bluetooth.device.default_name", "POCO X3 Pro");
 
 #ifdef __ANDROID_RECOVERY__
     std::string buildtype = GetProperty("ro.build.type", "userdebug");
